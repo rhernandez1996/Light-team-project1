@@ -93,7 +93,7 @@ const alts = [
 let completedImages = [];
 completedImages = images.map((image, index) => {
   return `<div class="award col-xs-12 col-md-4 p-0">
-          <img src="images/${image}"  alt="${alts[index]}" class="maxw-100"/>
+          <img src="/images/${image}"  alt="${alts[index]}" class="maxw-100"/>
         </div>
         `;
 });
