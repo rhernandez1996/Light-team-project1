@@ -1,11 +1,11 @@
-div {
+header {
     width: 100%;
     height: 500px;
-    background-image: url('images/lap-swimming.jpeg');
+    background-image: url('images/lap-swimming.jpg');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(203, 247, 220);
+    background-color: rgb(149, 149, 149);
 }
 
 li {
