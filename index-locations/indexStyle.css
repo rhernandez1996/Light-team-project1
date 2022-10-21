@@ -12,8 +12,8 @@
   --dark-grey: #444444;
   --grey: #757576;
 }
-/* Page Style Starts Here */
-/* Global CSS Starts Here*/
+
+
 .shadow-text {
   text-shadow: 1px 1px 2px var(--dark-grey);
 }
@@ -344,7 +344,7 @@ button {
   color: var(--dark-grey);
 }
 
-/* Home >> Awards */
+/* Home -- Awards */
 .awards {
   list-style-type: none;
 }
