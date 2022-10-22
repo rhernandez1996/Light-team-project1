@@ -103,6 +103,7 @@ button {
 
 .splash-site-header nav {
   background: rgba(26, 46, 56, 0.9);
+  flex-wrap: wrap;
 }
 
 .collapse-svg {

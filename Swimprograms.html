@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< Updated upstream
     <title>Swim Programs</title>
 </head>
 <body>
@@ -31,6 +32,212 @@
         <li>Pasadena</li>
         <li>San Jose</li>
         <li>Denver/Highlands Ranch</li>
+=======
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Splash frontend project" />
+  <title>Swim Programs</title>
+  <!-- Main CSS -->
+  <link href="index-locations/indexStyle.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font-awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!--VUE-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <link href="./swimPrograms/swimPrograms.css" rel="stylesheet">
+</head>
+
+  <body>
+    <!-- Sticky top -->
+    <header class="splash-site-header sticky-top fixed-md-top">
+      <nav class="navbar navbar-expand-md">
+        <div class="navbar-brand nav-logo">
+          <a href="index.html">
+            <img src="./images/logo-small.png" alt="log-small" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon collapse-svg"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-around position-relative"
+          id="navbarContent"
+        >
+          <ul class="navbar-nav nav-container">
+            <li class="nav-item">
+            <a class="nav-link text-white" href="../index-locations/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/aboutus.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/swimlessons.html">Swimming Lessons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/Swimprograms.html">Swim Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/adultprograms.html">Adult Programs</a>
+          </li>
+            <li class="nav-item nav-location">
+              <div class="dropdown show position-static">
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Locations</a
+                >
+                <div
+                  class="dropdown-menu box-container"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <div class="row">
+                    <div class="location-box col-md-3 col-6">
+                      <div>Orange County</div>
+                      <a href="#">Anaheim Hills @ LA Fitness</a>
+                      <a href="#">Huntington Beach</a>
+                      <a href="#">Irvine</a>
+                      <a href="#">Yorba Linda @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-3 col-6">
+                      <div>San Gabriel Valley</div>
+                      <a href="#">Alhambra-Fremont @ LA Fitness</a>
+                      <a href="#">Arcadia @ LA Fitness</a>
+                      <a href="#">Diamond Bar @ LA Fitness</a>
+                      <a href="#">Pasadena</a>
+                      <a href="#">West Covina @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Sillicon Valley</div>
+                      <a href="#">North San Jose @ City Sports Club</a>
+                      <a href="#">San Jose-Almaden @ City Sports Club</a>
+                      <a href="#">San Jose-Bascom</a>
+                      <a href="#">San Jose-Blossom Hill @ City Sports Club</a>
+                      <a href="#">Sunnyvale @ City Sports Club</a>
+                    </div>
+                    <div class="location-box col-md-3 col-6">
+                      <div>San Diego County</div>
+                      <a href="#">Carlsbad</a>
+                      <a href="#">Poway @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-3 col-6">
+                      <div>Los Angeles County</div>
+                      <a href="#">Culver City @ LA Fitness</a>
+                      <a href="#">Harbor City @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Alameda County</div>
+                      <a href="#">Hayward @ City Sports Club</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Orange County</div>
+                      <a href="#">San Francisco-20th Avenue @ City Sports</a>
+                      <a href="#">Club</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Denver</div>
+                      <a href="#">Highlands Ranch</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact US</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-secondary login"
+                href="#"
+                data-toggle="modal"
+                data-target="#myModal"
+                >Register / Sign In</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+ <div class="splash-login-modal" id="vue-app">
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            <splash-image path="../images/" name="splash-wave" suffix=".png"></splash-image>
+            <div class="login-form-container">
+              <h2>SIGN IN</h2>
+              <form>
+                <div class="form-group">
+                  <label for="">Email *</label>
+                  <input type="email" name="email" class="form-control" v-model="emailInput"
+                    @input="handleButtonDisable" />
+                  <label for="">Password *</label>
+                  <input type="password" name="password" class="form-control" v-model="passwordInput"
+                    @input="handleButtonDisable" />
+                </div>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+                <div class="buttons">
+                  <button id="sign-in" class="btn btn-primary" v-bind:disabled="isButtonDisabled">
+                    Sign In
+                  </button>
+                  <button class="btn btn-secondary">Sign Up</button>
+                </div>
+                <splash-image path="../images/" name="shark-full" suffix=".png"></splash-image>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Header for Adult Programs -->
+ <body>
+  <div class="container-fluid banner-wrapper p-0">
+    <img class="swimBanner" src="images/summer-swim-camps.jpeg" alt="Swim Banner" />
+</div>
+ 
+
+<main class="flex-container">
+  
+    <div id="swimmerheader" style="text-align: left;">
+      <h1 style="text-align: center;"><b>Building Swimming Skills All Summer Long</b></h1>
+    <p>
+      111
+    </p><br>
+    <p>
+      111
+    </p><br>
+    <p>
+      111
+    </p><br>
+    
+    <ul class="list" id="list" style="list-style: none; text-align: left;">
+        <li><a href="#">Irvine</a></li>
+        <li><a href="#">Carlsbad</a></li>
+        <li><a href="#">Pasadena</a></li>
+        <li><a href="#">San Jose</a></li>
+        <li><a href="#">Denver/Highlands Ranch</a></li>
+>>>>>>> Stashed changes
     </ul>
 </body>
 
