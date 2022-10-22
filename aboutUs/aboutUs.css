@@ -325,7 +325,7 @@ button {
   color: inherit;
 }
 .banner-image {
-  object-fit: scale-down;
+  /* object-fit: scale-down; */
 }
 
 .banner-wrapper {
